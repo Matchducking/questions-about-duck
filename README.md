@@ -32,6 +32,10 @@ All the other raid attempts (for example, eariler lobby murder player bots and P
 We attached part of the necessary source codes of our duck bots along with our repo, that we believe enough to prove our identity.
 > Hope this won't help other script kids grow up into ducks like us.
 
+## Samples
+As of October 8th, the first-ever fully functional project of MatchDucking was released: Host Ducks. It was designed to overload servers by hosting thousands of lobbies. 
+The project specifically targets dating lobby configurations as a means of addressing a gap, given that Innersloth has not adequately handled this issue.
+
 ## Credits
 While we independently coded most of our ducking programs, we used exploits and techniques that weren't discovered or fully developed by us.
 
