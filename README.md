@@ -37,8 +37,9 @@ We attached part of the necessary source codes of our duck bots along with our r
 As of October 8th, the first-ever fully functional project of MatchDucking was released: Host Ducks. It was designed to overload servers by hosting thousands of lobbies. 
 The project specifically targets dating lobby configurations as a means of addressing a gap, given that Innersloth has not adequately handled this issue.
 
-## Credits
-While we independently coded most of our ducking programs, we used exploits and techniques that weren't discovered or fully developed by us.
+## Credits + Disclaimer
+While we independently coded our programs, we used some exploits and techniques from publicly available repositories, such as pull requests and public branches. The individuals credited for their work are not associated with this project or any project of our team. 
+We do not and will not disclose team members.
 
 ### Github Copilot
 Copilot helped ease our coding pressure and make our ducker run in a very short time.
@@ -68,9 +69,6 @@ We use Impostor to test our ducks locally and referred their codes to build Join
 
 ### NikoCat233's Impostor Server
 NikoCat233 and Pietro built a full http api to request mm tokens and do friendcodes related requests in their fork of Impostor. At the moment of writing this document they have made these branches private so we can't correctly credit them.
-
-### DISCLAIMER:
-The code used in this project is sourced solely from publicly available repositories, such as pull requests and public branches. All individuals credited for their work are not associated with this project or any project of our team. The only entities associated with this project are those explicitly stated, but we do not and will not disclose team members.
 
 ### among-us-protocol
 https://github.com/roobscoob/among-us-protocol
