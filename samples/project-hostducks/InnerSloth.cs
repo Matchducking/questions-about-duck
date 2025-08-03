@@ -1,4 +1,5 @@
-// Each instance of Client class is equivalent to a Lobby going to be joined and Ducked.
+﻿// Each instance of Client class is equivalent to a Lobby going to be joined and Ducked.
+// This example closely follows the sample available on GitHub, with minor adjustments.
 
 using Hazel;
 using Hazel.Dtls;
