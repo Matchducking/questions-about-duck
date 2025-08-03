@@ -70,7 +70,7 @@ We use Impostor to test our ducks locally and referred their codes to build Join
 NikoCat233 and Pietro built a full http api to request mm tokens and do friendcodes related requests in their fork of Impostor. At the moment of writing this document they have made these branches private so we can't correctly credit them.
 
 ### DISCLAIMER:
-At the request of both NikoCat233 and Pietro, I would like to clarify that they are not involved in any way with this project. The code I have used is sourced solely from their publicly available repositories, and I am not utilizing any private or internal contributions from either of them. I appreciate their work but wanted to make clear that they are not associated in any way with this or any project of our team.
+The code used in this project is sourced solely from publicly available repositories, such as pull requests and public branches. All individuals credited for their work are not associated with this project or any project of our team. The only entities associated with this project are those explicitly stated, but we do not and will not disclose team members.
 
 ### among-us-protocol
 https://github.com/roobscoob/among-us-protocol
