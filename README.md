@@ -7,10 +7,11 @@ Match duckers duck the duck game with match ducking to force their duck develope
 "Ducking", referring to "Hacking" specifically, is an attempt to use exploits in the Among Us game server to kick, ban or overload lag players and make the game unplayable, forcing players to spam report the hacking raids and exploits to InnerSloth team, thus forcing the game devs to fix the exploits and make a better Among Us playground.
 
 What makes it different from other script kids and cheat menu kids is that we do it with better automatization program coded by our duck devs, which is able to make above 1k connections per instance. Also our initial goal is to force InnerSloth to fix exploits reported to them months ago instead of simply ruining games for fun.
-## We also have a Discord now: https://discord.gg/nNwPDRXynU
+## We also have a Discord now: https://discord.gg/qq84Dq6dH2
 
 ## Why do you duck?
 The initial goal of ducking is to force InnerSloth devs to fix exploits in their game. Those exploits have been reported mutliple times to them through different means and existed at least for months and obviously they choose to answer developers and exploiters with a general bot response and do their slothy work to create new cosmetics and make duck money.
+> Evidence at [Innersloth Contact Attempts](https://github.dev/Matchducking/innersloth-contact-attempts)
 
 By ducking, we make use of the power of the large player base of Among Us game, forcing players to spam report cheating/hacking raids to their sleepy bots support team, thus forcing real human devs to engage in and fix the exploits we use.
 > Innersloth devs only jump in when there is a huge hacking raids active around. And they won't react when they are on their sweat summer or winter hoilday. We are convinced that we can't make the exploits patched by the lazy sloth team in normal means, so we definately choose to duck to make the issue worse.
