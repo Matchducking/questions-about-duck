@@ -71,8 +71,7 @@ Multiple severe exploits in Among Us have existed for months and were reported t
 These reports consistently resulted in **automated responses** or no meaningful follow-up.
 
 > Evidence is documented at:
-> **Innersloth Contact Attempts**
-> [https://github.com/Matchducking/innersloth-contact-attempts](https://github.com/Matchducking/innersloth-contact-attempts)
+> [Innersloth Contact Attempts](https://github.com/Matchducking/innersloth-contact-attempts)
 
 Based on repeated observation, InnerSloth only meaningfully reacts when:
 
