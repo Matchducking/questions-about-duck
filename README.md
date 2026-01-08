@@ -367,5 +367,7 @@ This repository will remain as documentation.
 * GitHub Discussions for Q&A
 * Discord: [https://discord.gg/qq84Dq6dH2](https://discord.gg/qq84Dq6dH2)
 
+[![Discord](https://dcbadge.limes.pink/api/server/qq84Dq6dH2)](https://discord.gg/qq84Dq6dH2)
+
 > Good Night Victoria Support Team and Sloth Dev
 ![Victoria Support](images/victoria.png)
