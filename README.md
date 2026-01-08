@@ -1,106 +1,372 @@
-Q&A Repository. Look at Discussions.
-
 # Match Ducking
-Match duckers duck the duck game with match ducking to force their duck developers fix the ducks in their duck game.
 
-## What is Match Ducking
-"Ducking", referring to "Hacking" specifically, is an attempt to use exploits in the Among Us game server to kick, ban or overload lag players and make the game unplayable, forcing players to spam report the hacking raids and exploits to InnerSloth team, thus forcing the game devs to fix the exploits and make a better Among Us playground.
+Match Ducking is a coordinated exploitation and automation project targeting long-standing, unpatched vulnerabilities in the **Among Us** matchmaking, moderation, and server infrastructure.
 
-What makes it different from other script kids and cheat menu kids is that we do it with better automatization program coded by our duck devs, which is able to make above 1k connections per instance. Also our initial goal is to force InnerSloth to fix exploits reported to them months ago instead of simply ruining games for fun.
-## We also have a Discord now: https://discord.gg/qq84Dq6dH2
+The purpose of these actions is not entertainment or griefing, but to **force InnerSloth to acknowledge and patch exploits** that have been repeatedly reported through conventional channels and ignored for months.
 
-## Why do you duck?
-The initial goal of ducking is to force InnerSloth devs to fix exploits in their game. Those exploits have been reported mutliple times to them through different means and existed at least for months and obviously they choose to answer developers and exploiters with a general bot response and do their slothy work to create new cosmetics and make duck money.
-> Evidence at [Innersloth Contact Attempts](https://github.com/Matchducking/innersloth-contact-attempts)
+This repository documents:
 
-By ducking, we make use of the power of the large player base of Among Us game, forcing players to spam report cheating/hacking raids to their sleepy bots support team, thus forcing real human devs to engage in and fix the exploits we use.
-> Innersloth devs only jump in when there is a huge hacking raids active around. And they won't react when they are on their sweat summer or winter hoilday. We are convinced that we can't make the exploits patched by the lazy sloth team in normal means, so we definately choose to duck to make the issue worse.
+* What Match Ducking is
+* Why it exists
+* What actions we take responsibility for
+* What technical evidence supports those claims
+* Which projects, techniques, and external works were involved
 
-We are sorry for choosing this extreme way to make the exploits patched. But at least they are patched. We actually limited ourselves to not do attempts that are too bad and agreesive (since basically you can spam and post anything with the bots and modify their names to whatever you want). 
-> These people don’t realize that I’m not doing this for my own attention or ego. I’m doing it to bring attention to what Innersloth has become. With their current communication and moderation systems, it’s extremely difficult to report exploits to the actual developers rather than
-> just Innersloth’s support bots. I also want to raise awareness because Innersloth clearly isn’t doing enough to deal with dating lobbies.
+Q&A and discussion take place in **GitHub Discussions**.
 
-> I don’t even like to duck, since it affects too many people — but it’s the only way I’ve been able to get Innersloth’s attention and actually push for these specific vulnerabilities to be fixed.
+---
 
-Also a fact it's that we only do serious duck at the very beginning (like lagging and banning everyone, making the games unplayable), till we convinced that InnerSloth has known the issue and are making necessary patches. Then we will be less aggressive (like only join games but don't crash players, only duck around to clarify our existence and put urgency on Sloths) until the exploits we used are completely patched.
-> In the April duck raids, you may think InnerSloth has made effective patches in less than 24 hours that make most of the kick bots disappeared. That's not the case. We learned the dating rooms issues from DuckoMenu's Discord (in case you don't know, it's sweaty rooms hosted by sweats who are pedophilia, racist sexless or similiar stuffs, in an attempt to satisfy their special cravings. These rooms often come with 4-6 max players, 1 impostor and skeld map in matchmaking list), and we are convinced that InnerSloth won't take proper actions regarding it. So we stopped our kick bots and coded new duck hoster, which host fake games that looks like dating rooms (4-6 max players and 1 impostor or so). In this mean we address the issue in a less aggressive way, where normal players can continue playing the games while daters are likely cooked, though Innersloth finally chooses to ignore the dating room issue.
+## Table of Contents
 
-## What raid / duck attempts you are taking responsibility for?
-We take responsibilities for the massive bot ban wave in January 2025 (MatchHacking project) and the vote ban kick wave & DuckDater fake rooms since April 2025.
+* Overview
+* Terminology
+* Mission & Rationale
+* Disclosure History
+* Scope of Responsibility
+* Operational Phases & Timeline
+* Projects & Samples
+* Proof of Identity
+* Technique Disclosure Policy
+* Credits & Influences
+* Relationship With Other Projects
+* InnerSloth Incidents & Public Messages
+* Current Status
+* Future Intent
+* Community
 
-All the other raid attempts (for example, eariler lobby murder player bots and Parasites Central spam bots) are not by us and we believe these attempts were made with fully malicious intentions.
+---
 
-## How do you prove that you are the ducks that do above duck attempts?
-We attached part of the necessary source codes of our duck bots along with our repo, that we believe enough to prove our identity.
-> Hope this won't help other script kids grow up into ducks like us.
+## Overview
 
-## Samples
-As of October 8th, the first-ever fully functional project of MatchDucking was released: Host Ducks. It was designed to overload servers by hosting thousands of lobbies. 
-The project specifically targets dating lobby configurations as a means of addressing a gap, given that Innersloth has not adequately handled this issue.
+Match Ducking refers to the deliberate, automated exploitation of server-side vulnerabilities in Among Us in order to cause large-scale disruption of public matchmaking.
 
-## Credits + Disclaimer
-While we independently coded our programs, we used some exploits and techniques from publicly available repositories, such as pull requests and public branches. The individuals credited for their work are not associated with this project or any project of our team. 
-We do not and will not disclose team members.
+Unlike typical cheat menus or casual griefing:
 
-### Github Copilot
-Copilot helped ease our coding pressure and make our ducker run in a very short time.
+* Actions are automated at scale
+* Clients are purpose-built rather than repurposed menus
+* Operations are targeted and time-bound
+* Escalation is reduced once developer awareness is confirmed
+
+The objective is to **force developer response**, not to permanently ruin the player experience.
+
+---
+
+## Terminology
+
+**Ducking**
+In this context, “ducking” refers specifically to exploiting server or matchmaking vulnerabilities (kick, ban, lag, overload, matchmaking abuse) to make games unplayable at scale.
+
+This term is used to distinguish the activity from casual cheating or standard modding.
+
+---
+
+## Mission & Rationale
+
+Multiple severe exploits in Among Us have existed for months and were reported through:
+
+* Official support channels
+* Developer contact forms
+* Community moderation pathways
+
+These reports consistently resulted in **automated responses** or no meaningful follow-up.
+
+> Evidence is documented at:
+> **Innersloth Contact Attempts**
+> [https://github.com/Matchducking/innersloth-contact-attempts](https://github.com/Matchducking/innersloth-contact-attempts)
+
+Based on repeated observation, InnerSloth only meaningfully reacts when:
+
+* Exploits are publicly visible at scale
+* Large volumes of player reports overwhelm support systems
+* Matchmaking becomes visibly unusable
+
+Match Ducking was chosen as an escalation mechanism after normal disclosure failed.
+
+---
+
+## Disclosure History
+
+We did not begin with aggressive actions.
+
+Exploits were:
+
+* Reported months in advance
+* Demonstrated with reproducible steps
+* Ignored or answered with generic bot responses
+
+During this time, InnerSloth continued prioritizing:
+
+* Cosmetic releases
+* Monetization
+* Minimal moderation tooling
+
+This pattern left escalation as the only remaining lever.
+
+---
+
+## Scope of Responsibility
+
+We take responsibility for the following operations:
+
+* **January 2025**
+  * Large-scale bot ban wave (MatchHacking project)
+
+* **April 2025**
+
+  * Vote-kick abuse raids
+  * DuckDater fake dating room hosting
+  * Matchmaking pressure via targeted lobby configurations
+
+* **December 2025-January 2026**
+
+  * Vote-kick abuse raids
+  * GameData Overload
+  * Specifically North America
+
+We **do not** take responsibility for:
+
+* Early lobby-murder bots
+* Parasites Central spam bots
+* Other unrelated raid waves
+
+Those were conducted by separate actors with possibly malicious intent.
+
+---
+
+## Operational Phases & Timeline
+
+### Phase 1 — Aggressive Escalation
+
+* Mass lagging
+* Forced bans and kicks
+* Making games temporarily unplayable
+
+Purpose:
+Confirm developer awareness and internal escalation.
+
+### Phase 2 — Reduced Aggression
+
+Once InnerSloth awareness was confirmed:
+
+* Bots stopped crashing players
+* Presence was maintained without full disruption
+* Focus shifted to signaling urgency
+
+### Dating Lobby Targeting
+
+During April raids, it appeared that InnerSloth “patched” kick bots quickly.
+This was misleading.
+
+We learned, via DuckoMenu’s Discord, that **dating lobbies** remained a persistent moderation failure:
+
+* 4–6 player rooms
+* 1 impostor
+* Skeld map
+* Used by predatory or abusive communities
+
+InnerSloth showed no willingness to address this.
+
+Response:
+
+* Kick bots were halted
+* A new **duck hoster** was built
+* Fake dating rooms were hosted at scale
+
+This approach:
+
+* Reduced harm to normal players
+* Targeted the neglected problem directly
+* Maintained pressure without mass disruption
+
+---
+
+## Projects & Samples
+
+### Host Ducks (Released October 8)
+
+Capabilities:
+
+* Hosting thousands of lobbies
+* Matchmaking overload
+* Targeted lobby configuration spoofing
+
+Primary target:
+
+* Dating lobby configurations
+* Exploitation of matchmaking gaps
+
+This project represents the technical foundation of MatchDucking.
+
+---
+
+## Proof of Identity
+
+To establish authorship and responsibility, we have included **partial source code** for key components of our duck bots.
+
+This code is:
+
+* Sufficient to prove identity
+* Insufficient to allow trivial replication
+
+---
+
+## Technique Disclosure Policy
+
+Most techniques used are referenced indirectly in the Credits section and are believed to be patched.
+
+We do **not** disclose:
+
+* Still-unpatched exploits
+* Techniques that are excessively destructive
+* Methods likely to be abused by unrelated actors
+
+This is intentional.
+
+---
+
+## Credits & Influences
+
+We independently coded our tooling, but referenced publicly available work.
+
+Credit does **not** imply endorsement or involvement.
+
+### GitHub Copilot
+
+Used to reduce development time and coding overhead.
+
+---
 
 ### SickoMenu
-SickoMenu is a good project overall, though some of their developers do not seem to be skilled enough that they added plenty of shit codes to others' good codes.
 
-1. Spaces in friendcodes to bypass matchmaking limits of guest accounts
-2. ProtectPlayer and QuickChat and other related overloads exploits
-3. Let us know the dating lobby issues
+A technically mixed project.
+
+Relevant contributions:
+
+1. Friendcode spacing to bypass guest matchmaking limits
+2. ProtectPlayer, QuickChat, and overload exploits
+3. Exposure of dating lobby issues
+
+---
 
 ### MalumMenu
-1. Referred to MalumMenu to generate massive guest accounts with friendcodes
-2. Inspired us of the vote kick technique
-> Vote kick is still not patched in latest anticheat
+
+1. Guest account generation via friendcodes
+2. Inspiration for vote-kick exploitation
+
+> Vote kick remains unpatched in the latest anticheat.
+
+---
 
 ### EzHacked
-As a matter of fact, cmd checkname and check color and all other cmd related ban exploit are initially used by EzHacked bot. SickoMenu skidded these exploits to their cheat menu and we skidded from them and used in Jan raids.
-1. cmd related ban exploits
+
+Original source of:
+
+* cmd checkname
+* cmd check color
+* cmd-based ban exploits
+
+These were later reused by SickoMenu and subsequently by us during January raids.
+
+---
 
 ### Impostor
-We use Impostor to test our ducks locally and referred their codes to build JoinGame and HostGame packets used in ducks.
-1. Help test ducks locally
-2. Code references for JoinGame and HostGame
-3. FilterGames exploit (revealed by NikoCat233)
-> In the #685 pr of Impostor, NikoCat233 revealed the filter game exploit that can be used to get rooms in all languages and all chat modes, which is much more efficient than querying every language.
 
-### NikoCat233's Impostor Server
-NikoCat233 and Pietro built a full http api to request mm tokens and do friendcodes related requests in their fork of Impostor. At the moment of writing this document they have made these branches private so we can't correctly credit them.
+Used for:
+
+1. Local testing of duck clients
+2. JoinGame and HostGame packet references
+3. FilterGames exploit research
+
+> In PR #685, NikoCat233 revealed a filter exploit allowing cross-language, cross-chat room discovery.
+
+---
+
+### NikoCat233’s Impostor Server
+
+NikoCat233 and Pietro built a full HTTP API for:
+
+* MM token requests
+* Friendcode operations
+
+These branches are now private, preventing proper credits.
+
+---
 
 ### among-us-protocol
-https://github.com/roobscoob/among-us-protocol
 
-Referred while coding some shits. It's outdated but it's still a good wiki for beginners.
+[https://github.com/roobscoob/among-us-protocol](https://github.com/roobscoob/among-us-protocol)
+Outdated, but useful as a reference wiki.
+
+---
 
 ### Reactor
-For providing the game assembly that we can build most of our shit codes from it.
 
-## Technique Details
-Most of the techniques we used are refered in credits and should already be patched by InnerSloth. We can't share all the techniques we used as some of them are still too aggressive and we are in fear of it being used by people different from us.
+Provided the game assembly used to derive protocol behavior.
 
-## Our relationship with SickoMenu
-Some people think SickoMenu devs are behind these duck raids. Actually not! We did used their techniques and exploits but we are not them. We post kellnotwirk messages as a joke regarding them, and immediately stopped doing so when some smart ass claims that SickoMenu is behind these attacks. We didn't expect people downloading cheats to combat ducks, sorry!
+---
 
-## InnerSloth moment
-Sorry for joking about SuperSus. We didnt expect it could cause a drama strike.
+## Relationship With SickoMenu
 
-> MatchDucking : Global Offensive\nPowered by SuperSus dot io
+Some believe SickoMenu developers are behind Match Ducking.
 
-> innersloth please block friend codes from having spaces (thats used to bypass guest acc)
+This is false.
 
-> MatchDuckingbywwwSuperSusio/en
+We:
 
-> KellNotwirkbyworstcheatdsc*gg/sickos
+* Used some of their techniques
+* Are not affiliated with them
+* Posted joke messages referencing them
 
-> writer.Write($"{Utils.GenerateSecureRandomString(1)}nnersloth you need stronger moderation to stop d{Utils.GenerateSecureRandomDigits(1)}ting lobbies.");
+These jokes were discontinued once confusion arose.
+We did not anticipate users downloading cheats to fight ducks.
+
+---
+
+## InnerSloth Incidents & Public Messages
+
+We acknowledge irresponsible jokes made during operations, including references to SuperSus.
+
+Examples include:
+
+```
+MatchDucking : Global Offensive
+Powered by SuperSus dot io
+```
+
+Other injected messages highlighted:
+
+* Friendcode spacing abuse
+* Moderation failures
+* Dating lobby negligence
+
+---
+
+## Current Status
+
+InnerSloth has patched several exploits that were previously ignored.
+
+Active ducking operations are currently inactive.
+
+---
+
+## Future Intent
+
+If new severe exploits emerge and:
+
+* Are responsibly disclosed
+* Are ignored for extended periods
+* Cause systemic harm to matchmaking
+
+Then escalation may occur again.
+
+This repository will remain as documentation.
+
+---
+
+## Community
+
+* GitHub Discussions for Q&A
+* Discord: [https://discord.gg/qq84Dq6dH2](https://discord.gg/qq84Dq6dH2)
 
 > Good Night Victoria Support Team and Sloth Dev
->![alt text](images/victoria.png)
-
-
-## Our future
-InnerSloth has done enough patches we requested (~~requested by ducking~~) and ducks are cooked by them. But we will definately be back again when there are new serious exploits and techniques found and revealed.
+![Victoria Support](images/victoria.png)
